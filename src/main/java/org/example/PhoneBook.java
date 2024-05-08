@@ -36,9 +36,9 @@ public class PhoneBook {
         phoneBook.displayContacts();
 
         System.out.println("\nНомера Алисы:");
-        Set<String> johnNumbers = phoneBook.findContact("Алиса");
-        if (johnNumbers != null) {
-            for (String number : johnNumbers) {
+        Set<String> AlisaNumbers = phoneBook.findContact("Алиса");
+        if (AlisaNumbers != null) {
+            for (String number : AlisaNumbers) {
                 System.out.println(number);
             }
         } else {
